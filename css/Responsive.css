@@ -1,0 +1,46 @@
+
+
+@media (min-width: 768px) {
+  .site_logo--date{
+    display: none;
+    transition: 2s;
+  }
+
+  .site_logo--date.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    transition: 2s;
+  }
+  
+  
+  .header_box_data nav{
+    /* width: 80vw; */
+    gap: 20px;
+    /* background-color: red; */
+    display: flex;
+    transition: 2s;
+  }
+
+
+  .header_box_data--meno{
+    display: none;
+    transition: 2s;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 1024px) {
+ header{
+  position: absolute;
+  background-color: var(--header-Desktop-color);
+  z-index: 100;
+ }
+
+
+}
