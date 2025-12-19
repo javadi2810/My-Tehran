@@ -35,8 +35,17 @@
 
 
   /* main____________________________________________________________________________________________________________________ */
+.swiper-slide .img-desktop{
+  display: block;
+}
+
+.swiper-slide .img-mobil{
+  display: none;
+}
+
   .Slider_main_footer--link-content {
     flex-direction: row;
+    margin: 0px auto;
   }
 
   .Slider_main_footer--link-content span {
