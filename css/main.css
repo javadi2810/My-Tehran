@@ -16,21 +16,18 @@
   font-display: swap;
 }
 
+
+
+
+/* Variables--------------------------- */
 :root {
-  /* color---------- ------*/
   --header-mobil-color: #1b1b1b;
   --header-Desktop-color: rgba(0, 0, 0, 0.6);
 
 
 
-
-
-
   /* width----------------------- */
   --Desktop-max-width: 1180px;
-
-
-
 
 
 
