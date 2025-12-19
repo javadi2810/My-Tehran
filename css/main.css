@@ -17,9 +17,26 @@
 }
 
 :root {
+  /* color---------- ------*/
   --header-mobil-color: #1b1b1b;
-  --header-Desktop-color: rgba(0, 0, 0, 0.8);
-  --Desktop-max-width:1180px;
+  --header-Desktop-color: rgba(0, 0, 0, 0.6);
+
+
+
+
+
+
+  /* width----------------------- */
+  --Desktop-max-width: 1180px;
+
+
+
+
+
+
+
+  /* font-------------------------------------- */
+  --vazir-medium-font: 'Vazir', Tahoma, sans-serif;
 }
 
 
@@ -42,7 +59,7 @@ header {
   max-width: var(--Desktop-max-width);
   align-items: center;
   margin: 0px auto;
-  
+
 
 }
 
@@ -68,6 +85,7 @@ header {
   color: #808281;
   text-align: end;
   margin-top: -1em;
+  font: inherit;
 
 }
 
@@ -108,19 +126,20 @@ header {
   align-items: center;
   gap: 7px;
   font-size: 20px;
-  font-family: 'Vazir', Tahoma, sans-serif;
+  font-family: var(--vazir-medium-font);
   color: white;
   display: none;
+  padding: 0px 10px;
 }
 
 .header_box_data nav a {
   color: white;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .header_box_data--window {
   color: #f36f2b !important;
-  ;
 }
 
 .header_box_data--sign-up {
@@ -136,7 +155,7 @@ header {
   justify-content: end;
   gap: 10px;
   /* border: 1px solid green; */
-
+  padding: 0px 10px;
 }
 
 
@@ -177,8 +196,50 @@ header {
 /* main_____________________________________________________________________________________________________________________________ */
 
 
-main div {
+.Slider_main--footer {
   width: 100%;
-  height: 50px;
-  /* background-color: blue; */
+  background: #fff;
+  padding: 25px 0;
+  box-shadow: 0px 5px 15px -9px rgba(0, 0, 0, 1);
+}
+
+.main_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: var(--Desktop-max-width);
+  margin: 0px auto;
+}
+
+
+.Slider_main_footer--link-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+
+.Slider_main_footer--link-content span {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 20px;
+  gap: 15px;
+}
+
+.Slider_main_footer--link-content a {
+  font-family: var(--vazir-medium-font);
+  color: #666;
+  font-size: 15px;
+  text-decoration: none;
+  width: 50%;
+  padding: 10px 5px;
+  background-color: #ccc;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

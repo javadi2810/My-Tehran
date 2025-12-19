@@ -10,6 +10,14 @@
     <!-- style------------------------------------------------------------------------------------- -->
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/Responsive.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+
+
+
+
+    <!-- swiper _slider_cdn----------------------------------------- ------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -21,7 +29,7 @@
                     <a href="#">
                         <img src="./assets/imgs/Logo.png" alt="لوگوی تهران من">
                     </a>
-    
+
                     <span class="site_logo--date">
                         <span class="week">پنج شنبه ,</span>
                         <span class="day--month">27 آذر</span>
@@ -29,7 +37,7 @@
                     </span>
                 </div>
             </div>
-    
+
             <!-- left_header-------------- -->
             <div class="left_header">
                 <div class="header_box_data">
@@ -39,14 +47,14 @@
                         <a class="header_box_data--sign-in" href="">ورود</a>
                         <a class="header_box_data--sign-up" href="">ثبت نام</a>
                     </nav>
-    
+
                     <section>
                         <span class="site_logo--date  active">
                             <span class="week">پنج شنبه ,</span>
                             <span class="day--month">27 آذر</span>
                             <span class="year">1404</span>
                         </span>
-                        
+
 
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -55,7 +63,7 @@
                                     d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                             </svg>
                         </a>
-    
+
                         <div class="header_box_data--meno">
                             <div></div>
                             <div></div>
@@ -63,13 +71,72 @@
                         </div>
                     </section>
                 </div>
-            </div>  
+            </div>
         </div>
     </header>
     <main>
-        <div></div>
+        <!-- Slider main container -  width:100%;--------------------------------------------------->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/imgs/main-slider/14.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/imgs/main-slider/43.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/imgs/main-slider/46.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next"><span>❯</span></div>
+            <div class="swiper-button-prev"><span>❮</span></div>
+
+        </div>
+        <!-- Slider_main--footer--width:100%;-------------------->
+        <div class="Slider_main--footer">
+            <div class="main_container">
+                <section class="Slider_main_footer--link-content">
+                    <span>
+                        <a href="">پرسش و پاسخ متداول</a>
+                        <a href="">باز یابی رمز عبور</a>
+                    </span>
+                    <span>
+                        <a href="">عوارض محدوده های ترافیکی</a>
+                        <a href="">نرم افزار های موبایلی</a>
+                    </span>
+
+                </section>
+            </div>
+        </div>
+
+
+        <div class="main_container">
+            
+        </div>
     </main>
     <footer></footer>
+
+
+
+
+
+
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            speed: 1000,
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>

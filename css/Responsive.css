@@ -1,7 +1,6 @@
-
-
 @media (min-width: 768px) {
-  .site_logo--date{
+
+  .site_logo--date {
     display: none;
     transition: 2s;
   }
@@ -13,9 +12,9 @@
     width: fit-content;
     transition: 2s;
   }
-  
-  
-  .header_box_data nav{
+
+
+  .header_box_data nav {
     /* width: 80vw; */
     gap: 20px;
     /* background-color: red; */
@@ -23,11 +22,33 @@
     transition: 2s;
   }
 
-
-  .header_box_data--meno{
+  .header_box_data--meno {
     display: none;
     transition: 2s;
   }
+
+
+
+
+
+
+
+
+  /* main____________________________________________________________________________________________________________________ */
+  .Slider_main_footer--link-content {
+    flex-direction: row;
+  }
+
+  .Slider_main_footer--link-content span {
+    width: 50%;
+  }
+
+  .Slider_main_footer--link-content a {
+    background-color: transparent;
+    border-radius: 0px;
+  }
+
+
 }
 
 
@@ -35,12 +56,35 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* **************************************************************************************************************************************** */
 @media (min-width: 1024px) {
- header{
-  position: absolute;
-  background-color: var(--header-Desktop-color);
-  z-index: 100;
- }
+  header {
+    position: absolute;
+    background-color: var(--header-Desktop-color);
+    z-index: 100;
+  }
+
+  .header_container {
+    padding: 5px;
+  }
+
+
+
+
+
+  /* main_________________________________________________________________________________________________________________________ */
+
 
 
 }
