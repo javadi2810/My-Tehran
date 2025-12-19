@@ -14,6 +14,24 @@
 
 }
 
+.swiper-slide a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide span{
+  width: 95%;
+  background: rgb(228, 195, 30);
+  border-radius: 5px;
+  padding: 8px 0px;
+  position: absolute;
+  bottom: 0px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
 .swiper-slide img {
   display: block;
   width: 100%;

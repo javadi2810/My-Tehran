@@ -58,6 +58,11 @@
   }
 
 
+  .main_container_section_boxCard a ,
+  .main_container_section_boxCard--card{
+    border-radius: 30px;
+  }
+
 }
 
 

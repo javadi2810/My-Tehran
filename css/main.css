@@ -280,7 +280,7 @@ header {
   border: none;
   background-color: white;
   transition: 500ms;
-  border-radius: 30px;
+  /* border-radius: 30px; */
 }
 
 .main_container_section_boxCard a:hover {
@@ -290,14 +290,14 @@ header {
 }
 
 .main_container_section_boxCard--card {
-  width: 190px;
+  width: 185px;
   /* background-color: white; */
   background-color: transparent;
   display: flex;
   /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   padding: 24px 0;
   min-height: 210px;
   -webkit-box-shadow: -2px 1px 0px 2px #dadada;
